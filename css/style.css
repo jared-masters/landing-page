@@ -15,7 +15,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    height: 60px;
+    height: 72px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,9 +34,9 @@ a {
 }
 
 .header-logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
+    width: 64px;
+    height: 64px;
+    border-radius: 30px;
 }
 
 /* END HEADER */
@@ -70,6 +70,7 @@ a {
     font-size: 48px;
     color: white;
     font-weight: 900;
+    text-align: center;
 }
 
 .introduction-description {
@@ -192,6 +193,7 @@ a {
     justify-content: space-between;
     align-items: center;
     color: white;
+    gap: 20px;
 }
 
 .advertisement-header {
