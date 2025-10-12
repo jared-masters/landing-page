@@ -78,7 +78,7 @@ a {
     color: #E5E7EB;
 }
 
-.introduction-signup {
+.signup {
     border-radius: 8px;
     background-color: #3882F6;
     width: 90px;
@@ -172,9 +172,44 @@ a {
 
 /* END QUOTE */
 
+/* START ADVERTISEMENT */
+
 .advertisement {
     flex: 1.5;
+    display: flex;
+    padding: 0 120px;
+    justify-content: center;
 }
+
+.advertisement-box {
+    flex: 1;
+    max-width: 1000px;
+    margin: 60px 0;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.advertisement-header {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.advertisement-description {
+    color: lightgray;
+}
+
+.advertisement-signup {
+    border: 2px solid white;
+}
+
+/* END ADVERTISEMENT */
+
+/* START FOOTER */
 
 .footer {
     background-color: #1F2937;
@@ -184,3 +219,5 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+/* END FOOTER */
