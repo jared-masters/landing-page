@@ -1,11 +1,18 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
-    height: 100vh;
+    height: 1500px;
     display: flex;
     flex-direction: column;
     margin: 0;
-    box-sizing: border-box;
 }
+
+/* START HEADER */
 
 .header {
     background-color: #1F2937;
@@ -33,22 +40,112 @@ a {
     color: white;
 }
 
+/* END HEADER */
+
+/* START INTRODUCTION */
+
 .introduction {
     /* background-color: #1F2937; */
-
-    flex: 1;
+    background-color: #1F2937;
+    flex: 2;
+    display: flex;
+    padding: 0 120px;
 }
+
+.introduction-middle-container {
+    display: flex;
+    flex: 1;
+    margin: 60px 0;
+    gap: 24px;
+}
+
+.introduction-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.introduction-header {
+    font-size: 48px;
+    color: white;
+    font-weight: 900;
+}
+
+.introduction-description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.introduction-signup {
+    border-radius: 8px;
+    background-color: #3882F6;
+    width: 90px;
+    color: white;
+    padding: 6px;
+}
+
+.introduction-image {
+    flex: 1;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-image img {
+    color: white;
+}
+
+/* END INTRODUCTION */
+
+/* START INFORMATION */
 
 .information {
-    flex: 1;
+    flex: 2;
+    padding: 0 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 36px;
 }
 
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    align-self: center;
+}
+
+.information-content {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.information-item {
+    width: 160px;
+    text-align: center;
+}
+
+.information-item img {
+    width: 160px;
+    height: 160px;
+    border: 3px solid #3882F6;
+    border-radius: 12px
+}
+
+/* END INFORMATION */
+
 .quote {
-    flex: 1;
+    flex: 2;
+    background-color: #E5E7EB;
 }
 
 .advertisement {
-    flex: 1;
+    flex: 1.5;
 }
 
 .footer {
