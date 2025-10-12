@@ -1,0 +1,57 @@
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #1F2937;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+
+.header-links {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.introduction {
+    /* background-color: #1F2937; */
+
+    flex: 1;
+}
+
+.information {
+    flex: 1;
+}
+
+.quote {
+    flex: 1;
+}
+
+.advertisement {
+    flex: 1;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 60px;
+}
