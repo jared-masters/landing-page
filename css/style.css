@@ -6,7 +6,6 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    height: 1500px;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -20,7 +19,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 120px;
+    padding: 0 160px;
 }
 
 .header-links {
@@ -49,13 +48,13 @@ a {
     background-color: #1F2937;
     flex: 2;
     display: flex;
-    padding: 0 120px;
+    padding: 0 160px;
 }
 
 .introduction-middle-container {
     display: flex;
     flex: 1;
-    margin: 60px 0;
+    margin: 120px 0;
     gap: 24px;
 }
 
@@ -88,14 +87,15 @@ a {
 
 .introduction-image {
     flex: 1;
-    background-color: darkgray;
+    background-color: gray;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .introduction-image img {
-    color: white;
+    height: 200px;
 }
 
 /* END INTRODUCTION */
@@ -187,7 +187,7 @@ a {
     margin: 60px 0;
     background-color: #3882F6;
     border-radius: 8px;
-    padding: 0 100px;
+    padding: 30px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
