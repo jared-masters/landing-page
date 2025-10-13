@@ -15,11 +15,10 @@ body {
 
 .header {
     background-color: #1F2937;
-    height: 72px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 160px;
+    padding: 8px 160px;
 }
 
 .header-links {
@@ -36,7 +35,7 @@ a {
 .header-logo {
     width: 64px;
     height: 64px;
-    border-radius: 30px;
+    border-radius: 32px;
 }
 
 /* END HEADER */
@@ -214,7 +213,7 @@ a {
 
 .footer {
     background-color: #1F2937;
-    height: 60px;
+    padding: 24px 0;
     color: white;
     display: flex;
     justify-content: center;
